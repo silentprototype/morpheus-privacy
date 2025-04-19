@@ -1,50 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Morpheus Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
       background-color: #000;
-      color: #00ffcc;
+      color: #00FF99;
       font-family: monospace;
       padding: 2rem;
-      max-width: 700px;
+      max-width: 800px;
       margin: auto;
+      line-height: 1.6;
     }
+
     h1 {
-      border-bottom: 1px solid #00ffcc;
+      font-size: 1.75rem;
+      border-bottom: 1px solid #00FF99;
       padding-bottom: 0.5rem;
     }
+
     a {
-      color: #00ffcc;
+      color: #00FF99;
+      text-decoration: underline;
     }
+
     ul {
-      line-height: 1.7em;
+      padding-left: 1.5rem;
     }
+
     .footer {
       margin-top: 3rem;
-      font-size: 0.85rem;
-      color: #666;
+      font-size: 0.9rem;
+      color: #008060;
     }
   </style>
 </head>
 <body>
   <h1>Morpheus P30 – Privacy Policy</h1>
-  <p>No personal data is collected.</p>
+  <p>This application does not collect or share any personal data.</p>
+
   <ul>
     <li>No advertising or analytics SDKs</li>
     <li>No third-party APIs called</li>
-    <li>App functions fully offline</li>
+    <li>App functions entirely offline</li>
   </ul>
-  <p><strong>URL for Google Play Console:</strong><br>
-  <a href="https://silentprototype.github.io/morpheus-privacy/" target="_blank">
-    https://silentprototype.github.io/morpheus-privacy/
-  </a></p>
+
+  <p><strong>Google Play Policy URL:</strong><br />
+    <a href="https://silentprototype.github.io/morpheus-privacy/" target="_blank">
+      https://silentprototype.github.io/morpheus-privacy/
+    </a>
+  </p>
+
   <div class="footer">
-    © Silent Prototype 2025
+    &copy; Silent Prototype 2025
   </div>
 </body>
 </html>
-
